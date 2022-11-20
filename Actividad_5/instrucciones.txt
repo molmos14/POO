@@ -1,0 +1,32 @@
+Actividad 5
+
+Utilizando C++ resuelve el siguiente planteamiento:
+	Diseña y codifica la clase que aparece en la Figura.
+	Recuerda incluir todos los atributos o características de la clase, por diseño, deben señalarse como como privados.
+
+Alumno
+- matricula: string
+- nombre: string
+- edad: int
+- carrera: string
++ Alumno()
++ Alumno(matricula: string, nombre: string, edad: int, carrera: string)
++ getMatricula(): string
++ getNombre(): string
++ getEdad(): int
++ getCarrera(): string
++ setMatricula(string)
++ setNombre(string)
++ setEdad(int)
++ setCarrera(string)
++ imprimeAlumno()
++ cumpleanios()
+
+El constructor default, deberá asignar valores por default a cada uno de los atributos de la clase (tú determinas cuáles serán dichos valores).
+
+Agrega funcionalidad a la clase a través de los métodos constructores, así como los métodos getters y setters para todos los atributos. 
+Diseña los métodos imprimeAlumno que muestre en pantalla todos los datos de un alumno y cumpleanios que incremente en uno el valor del atributo edad. 
+Ambos métodos son de tipo void y no reciben argumentos de entrada.
+
+Desde una aplicación de consola sencilla, declara un objeto para utilizar y probar todos los métodos de la clase que diseñaste.
+
