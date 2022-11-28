@@ -16,7 +16,7 @@ class Fraccion{
     void set_den(int den);
 
     double calcValorReal();
-    double sumar(Fraccion fraccion, Fraccion otra_fraccion);
+    void sumar(Fraccion otra_fraccion);
     void imprimir();
 };
 
